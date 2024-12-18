@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --main-font: "Inter", sans-serif; 
+}
+
+body {
+  font-family: var(--main-font);
+  @apply h-screen;
+  background: linear-gradient(180.3deg, rgb(22, 22, 22) 60%, rgb(140, 139, 139) 90%);
+  margin: 0;
+}
+
+.parent-container {
+  background: transparent;
+}
