@@ -54,7 +54,7 @@ const Hero = () => {
               transition={{ duration: 1, delay: 1.5}}
               src={AboutMePhoto2}
               alt="Photo of Me"
-              className="mx-1 w-96"
+              className="mx-1 w-96 rounded-lg"
             />
           </div>
         </div>
