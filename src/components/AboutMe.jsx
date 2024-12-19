@@ -9,7 +9,7 @@ const AboutMe = () => {
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 1 }}
-        className="text-6xl font-thin mb-4 bg-transparent">About Me</motion.h1>
+        className="text-6xl font-thin mb-8 bg-transparent">About Me</motion.h1>
         <motion.div 
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}

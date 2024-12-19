@@ -45,13 +45,15 @@ export const PROJECTS = [
     description:
       "A dynamic full-stack web app allowing users to input food items by images or text and retrieve nutritional values using the USDA API and ChatGPT for data sorting.",
     technologies: ["MongoDB", "Express", "React", "Node.js", "Python"],
+    url: "https://github.com/Nguyen-Noah/macro-and-me"
   },
   {
-    title: "Weather Card App",
+    title: "Portfolio Website",
     image: project2,
     description:
-      "A responsive weather card app displaying real-time weather data using the OpenWeatherMap API, featuring dynamic location search with autofill.",
-    technologies: ["React", "Node.js", "JavaScript", "OpenWeatherMap API"],
+      "A modern and responsive portfolio website showcasing projects, skills, and experience. Built with Tailwind CSS for styling, Vite for fast builds, and Framer Motion for interactive animations.",
+    technologies: ["React", "Tailwind CSS", "Vite", "Framer Motion", "JavaScript"],
+    url: "https://react-portfolio-seven-rho.vercel.app/"
   },
   {
     title: "Global Game Jam 2024",
@@ -59,13 +61,15 @@ export const PROJECTS = [
     description:
       "Collaborated with a team to create a video game within 48 hours using the Unity engine, focusing on gameplay mechanics, UI design, and asset integration.",
     technologies: ["Unity", "C#"],
+    url: "https://globalgamejam.org/games/2024/blocky-block-9"
   },
   {
-    title: "Car Parking Garage Software",
+    title: "ASL Gesture Translator",
     image: project4,
     description:
-      "Developed a parking management system in Java using linked lists, sets, and bags to track parking availability, vehicle records, and spot assignments.",
-    technologies: ["Java", "Data Structures"],
+      "An AI-powered application that translates American Sign Language (ASL) gestures into text in real time. Utilizes computer vision and deep learning for accurate hand gesture recognition and translation.",
+    technologies: ["Python", "TensorFlow", "MediaPipe", "OpenCV", "Streamlit"],
+    url: "https://github.com/Pranaav003/ASLMachineLearning"
   },
 ];
 
