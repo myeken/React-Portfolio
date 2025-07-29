@@ -96,28 +96,28 @@ const Technologies = () => {
           <DiCss3 className='text-7xl text-blue-400' /> {/* CSS3 */}
         </motion.div>
         <motion.div
-        variants={iconVariants(6)}
+        variants={iconVariants(6.5)}
         initial="inital"
         animate="animate"
         className='rounded-2xl border-4 border-neutral-800 p-4'>
           <FaGitAlt className='text-7xl text-orange-600'/> {/* git */}
         </motion.div>
         <motion.div
-        variants={iconVariants(6)}
+        variants={iconVariants(7)}
         initial="inital"
         animate="animate"
         className='rounded-2xl border-4 border-neutral-800 p-4'>
           <RiTailwindCssFill className='text-7xl text-blue-300'/> {/*Tailwind*/}
         </motion.div>
         <motion.div
-        variants={iconVariants(6)}
+        variants={iconVariants(7.5)}
         initial="inital"
         animate="animate"
         className='rounded-2xl border-4 border-neutral-800 p-4'>
           <SiTensorflow className='text-7xl text-orange-500'/> {/* TensorFlow */}
         </motion.div>
         <motion.div
-        variants={iconVariants(6)}
+        variants={iconVariants(8)}
         initial="inital"
         animate="animate"
         className='rounded-2xl border-4 border-neutral-800 p-4'
