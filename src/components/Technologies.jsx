@@ -7,6 +7,10 @@ import { FaJava } from 'react-icons/fa'
 import { DiJavascript } from 'react-icons/di'
 import { DiHtml5 } from 'react-icons/di'
 import { DiCss3 } from 'react-icons/di'
+import { FaGitAlt } from "react-icons/fa6";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { SiTensorflow } from "react-icons/si";
+import { VscVscode } from "react-icons/vsc";
 import {motion} from "framer-motion"
 
 const iconVariants = (duration) => ({
@@ -90,6 +94,35 @@ const Technologies = () => {
         animate="animate"
         className='rounded-2xl border-4 border-neutral-800 p-4'>
           <DiCss3 className='text-7xl text-blue-400' /> {/* CSS3 */}
+        </motion.div>
+        <motion.div
+        variants={iconVariants(6)}
+        initial="inital"
+        animate="animate"
+        className='rounded-2xl border-4 border-neutral-800 p-4'>
+          <FaGitAlt className='text-7xl text-orange-600'/> {/* git */}
+        </motion.div>
+        <motion.div
+        variants={iconVariants(6)}
+        initial="inital"
+        animate="animate"
+        className='rounded-2xl border-4 border-neutral-800 p-4'>
+          <RiTailwindCssFill className='text-7xl text-blue-300'/> {/*Tailwind*/}
+        </motion.div>
+        <motion.div
+        variants={iconVariants(6)}
+        initial="inital"
+        animate="animate"
+        className='rounded-2xl border-4 border-neutral-800 p-4'>
+          <SiTensorflow className='text-7xl text-orange-500'/> {/* TensorFlow */}
+        </motion.div>
+        <motion.div
+        variants={iconVariants(6)}
+        initial="inital"
+        animate="animate"
+        className='rounded-2xl border-4 border-neutral-800 p-4'
+        >
+          <VscVscode className='text-7xl text-blue-600'/> {/* VS Code */}
         </motion.div>
       </motion.div>
     </div>

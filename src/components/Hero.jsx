@@ -31,7 +31,7 @@ const Hero = () => {
             variants={container(1)}
             initial='hidden'
             animate='visible' className="bg-gradient-to-r from-green-400 via-slate-300 to-purple-500 bg-clip-text text-transparent text-3xl tracking-tight">
-              Aspiring Full-Stack Developer
+              Aspiring Full-Stack/Software Developer
             </motion.span>
             {/* Description */}
             <motion.p
@@ -39,7 +39,7 @@ const Hero = () => {
             initial='hidden'
             animate='visible' 
             className="my-2 max-w-2xl py-6 text-lg font-light lg:text-2xl leading-relaxed">
-              I am Michael Nguyen, a Computer Science student at Purdue University Fort Wayne with a passion for
+              I am Michael Nguyen, a recently graduated Computer Science student at Purdue University Fort Wayne with a passion for
               innovative problem-solving and developing impactful software solutions. Experienced in full-stack
               development, game design, and responsive UI/UX, with expertise in Java, Python, JavaScript, and the MERN stack.
             </motion.p>

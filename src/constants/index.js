@@ -68,8 +68,8 @@ export const PROJECTS = [
     image: project4,
     description:
       "An AI-powered application that translates American Sign Language (ASL) gestures into text in real time. Utilizes computer vision and deep learning for accurate hand gesture recognition and translation.",
-    technologies: ["Python", "TensorFlow", "MediaPipe", "OpenCV", "Streamlit"],
-    url: "https://github.com/Pranaav003/ASLMachineLearning"
+    technologies: ["Python", "TensorFlow", "MediaPipe", "OpenCV", "React"],
+    url: "https://aslwebsite.onrender.com/asl"
   },
 ];
 

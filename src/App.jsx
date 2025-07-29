@@ -9,7 +9,7 @@ import './index.css';
 
 export const App = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#161616] to-[#8c8b8b] text-neutral-300 antialiased selection:bg-green-100 selection:text-cyan-900">
+    <div className="mx-auto min-h-screen max-w-full overflow-x-hidden bg-gradient-to-b from-[#161616] to-[#8c8b8b] text-neutral-300 antialiased selection:bg-green-100 selection:text-cyan-900">
       <Navbar />
       <Hero />
       <AboutMe />
